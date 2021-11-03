@@ -2,11 +2,11 @@
 
 ## Election Results Audit
 
-The Purpose of the Audit
+### The Purpose of the Audit
 
 	The purpose of the Election Audit was to show the results of the election for 3 different counties for the 3 Candidates.  The Election Commission also wanted to the percentage of votes for each candidate.  The percentage of votes from the county with the highest amount was also requested by the commission.
 
-## The Results of the Audit
+### The Results of the Audit
 
 After the audit was completed, it was concluded that Diana DeGette had won the election with receiving 73.8% of the votes in the 3 counties.  Also from the results, it showed that the votes from Denver had the highest percentage of votes from the 3 counties.  In the following set of bullets, you will see what was asked and how it was calculated.
 ```python
@@ -46,6 +46,6 @@ After the audit was completed, it was concluded that Diana DeGette had won the e
 	            winning_percentage = vote_percentage
 ```
 
-## The Summary of the Audit
+### The Summary of the Audit
 
 	The commission can use this script for any election to get voter count and the percentage of votes per county and/or candidate.  It can also be used to get the percentage of votes for each candidate by county as well if the script is modified some.
