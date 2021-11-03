@@ -9,11 +9,11 @@ The Purpose of the Audit
 ## The Results of the Audit
 
 After the audit was completed, it was concluded that Diana DeGette had won the election with receiving 73.8% of the votes in the 3 counties.  Also from the results, it showed that the votes from Denver had the highest percentage of votes from the 3 counties.  In the following set of bullets, you will see what was asked and how it was calculated.
-
+```python
   Total votes of the election
 	Each candidate’s total vote count and percentage was also reported
 	for candidate_name in candidate_votes:
-	.. code:: python
+	
 	        # Retrieve vote count and percentage
 	        votes = candidate_votes.get(candidate_name)
 	        vote_percentage = float(votes) / float(total_votes) * 100
@@ -44,7 +44,7 @@ After the audit was completed, it was concluded that Diana DeGette had won the e
 	            winning_count = votes
 	            winning_candidate = candidate_name
 	            winning_percentage = vote_percentage
-
+```
 
 ## The Summary of the Audit
 
